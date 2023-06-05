@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+}  
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+.salir{
+    margin-left: 250px;
+}
+.container input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
